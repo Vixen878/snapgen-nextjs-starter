@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+This project includes [shadcn/ui](https://ui.shadcn.com/) components for building beautiful and accessible user interfaces.
+
 ## Getting Started
 
 First, run the development server:
@@ -20,12 +22,23 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## UI Components
+
+This project is configured with [shadcn/ui](https://ui.shadcn.com/) using the "default" style. You can add new components using:
+
+```bash
+npx shadcn@latest add [component-name]
+```
+
+Components are located in the `src/components/ui` directory and can be imported and used throughout your application.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [shadcn/ui Documentation](https://ui.shadcn.com/) - learn about the UI component library.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
